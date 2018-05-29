@@ -1,0 +1,14 @@
+#il,nl,buffer_size
+401 3 3
+#cfl number, epsilon, p( for weno ), z (for HCCS)
+0.04 1e-6 2 2
+# x length, time length
+10 0.13
+#save steps,dt
+100 5e-6
+#choose splitting 1=ausm 2=character 3=character-semi 4 = LLF 5= GLF 6 = sw, 7 = HLLC, 8 = TOT
+8
+#choose scheme 1=weno5th 2=weno7th
+1
+#choose problem  1=Lax 2=Shu-Osher 3=Sod 4=Blast 5=contact 6=entropy
+4
